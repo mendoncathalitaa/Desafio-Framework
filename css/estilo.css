@@ -1,0 +1,174 @@
+    
+* { 
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+    
+    .body, html {
+        margin: 0;
+        height: 100%;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        scroll-behavior: smooth;
+        background-color: #ffffff;
+    }
+    
+
+
+
+    /* MENU */
+    .navbar {
+        background-color: #d6a9eb ;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;;
+        padding:  10px;
+        text-align: center;
+        position: fixed;
+        display: block; 
+        width: 100%;
+        left:0;
+        right:0;
+        
+    }
+
+
+    .navlogo{
+        margin-right: 40px;
+        height: 30px;
+        left: 20px;
+    }
+
+    .containerPadrao{
+        margin-top: 100px;
+    }
+    
+    /*Sidebar*/
+    
+    
+    .sidebar nav ul li{
+      margin-bottom: 16px;
+        
+    }
+    
+    .sidebar nav ul li :hover{
+        background-color: #ba99ee;
+        font-weight: bold;
+        border-radius: 30px;
+        padding: 8px 8px;
+        
+    }
+    
+    
+    
+    .sidebar nav ul li a{
+        text-decoration: none;
+        font-size: 18px;
+        color: #7b3f96;
+    
+    }
+    
+    /*footer*/
+    
+    footer{
+        
+        text-align:center;
+        background: #ba99ee;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        padding: 25px;
+        
+    }
+    
+    
+    .rodape{
+        bottom: inherit;
+    }
+    
+    @media (min-width:1440px) {   
+        footer{
+          bottom: 0;
+        }  
+    }
+    
+    @media (min-height:700px) {
+      .rodape{
+        bottom: 0;
+    }
+      }
+    
+    /* TITULO */
+
+    h2{
+        text-align: center;
+        color: #7b3f96;
+    }
+
+
+    /* TABELA */
+    
+
+    table{
+        border-spacing: 0px;
+        border: 1px solid #5f3473;
+        margin-left: auto;
+        margin-right:auto;  
+
+    }
+
+    table tr td{
+        border: 1px solid #5f3473 ;
+    }
+
+   
+    /* BOTAO VOLTAR*/
+
+    .botao {
+        font-family:' "Trebuchet MS", Helvetica, sans-serif;';
+        color: white ;
+        background-color:#907a9a;
+        padding: .4rem .8rem ;
+        border-radius: 200px;
+        text-decoration: none;
+        font-size: 16px;
+        float: right;
+        margin-top: 30px;
+    }
+    
+    .botao:hover {
+        color: #907a9a  ;
+        background-color: #5f3473;
+    }
+
+    /* RODAPÉ */
+
+    footer{
+            margin-top: 200px;
+            background-color:#d6a9eb ;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            line-height: 25px;
+    }
+
+    /* BOTÃO - VOLTAR AO TOPO */
+
+    .topo {
+        text-decoration: none;
+        background-color: #5f3473;
+        bottom: 30px;
+        right: 30px;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        border-radius: 200px;
+        font-size: 12px;
+        cursor: pointer;
+        text-transform: uppercase;
+        position: fixed;
+        border: 0;
+        opacity: .8;
+        margin-bottom: 50px;
+        }
+        
+        .topo:hover {
+        opacity:1;
+        }
